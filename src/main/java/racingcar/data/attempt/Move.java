@@ -5,7 +5,7 @@ public enum Move {
     FORWARD(1);
 
     private final int move;
-    private static final String WRONG_MOVE_EXCEPTION = "Moves should be ";
+    private static final String WRONG_MOVE_EXCEPTION = "Move should be ";
     
     Move(int move) {
         this.move = move;
